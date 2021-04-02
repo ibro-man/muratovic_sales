@@ -4,6 +4,7 @@ public class Customer
 {
 	private int customerID;
 	private String firstName;
+	private double credit;
 	
 	public Customer()
 	{
@@ -19,7 +20,15 @@ public class Customer
 	{
 		return firstName;
 	}
+	public double getCredit() 
+	{
+		return credit;
+	}
 //	setter------------------------------------------
+	public void setCredit(double credit) 
+	{
+		this.credit = credit;
+	}
 	public void setCustomerID(int customerID) 
 	{
 		this.customerID = customerID;
@@ -28,6 +37,8 @@ public class Customer
 	{
 		this.firstName = firstName;
 	}
+	
+	
 	
 	
 }
